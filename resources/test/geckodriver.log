@@ -1,0 +1,88 @@
+1559943180407	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lGcJNyhq5oIr"
+Error: no DISPLAY environment variable specified
+1559943181286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CPWRyrFtK7jy"
+Error: no DISPLAY environment variable specified
+1559943218832	mozrunner::runner	INFO	Running command: "/usr/local/google/home/robertma/tools/firefox-nightly/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.O8gY1kCpzGg3"
+Error: no DISPLAY environment variable specified
+1559943220604	mozrunner::runner	INFO	Running command: "/usr/local/google/home/robertma/tools/firefox-nightly/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DiGyi8xEgMNf"
+Error: no DISPLAY environment variable specified
+1559943269495	mozrunner::runner	INFO	Running command: "/usr/local/google/home/robertma/tools/firefox-nightly/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.U9Cng9aaD6Ni"
+1559943271045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559943271045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1559943271046	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559943271046	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559943272817	Marionette	INFO	Listening on port 39539
+1559943272912	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: services.settings: Initialize Remote Settings
+console.info: services.settings: Push notification received (version="1559865839282" phase=register)
+console.info: services.settings: Start polling for changes
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:205:13
+async*receivedBroadcastMessage@resource://services-settings/remote-settings.js:361:27
+receivedBroadcastMessage@resource://gre/modules/PushBroadcastService.jsm:208:23
+async*receivedBroadcastMessage@resource://gre/modules/PushService.jsm:741:26
+_handleBroadcastReply@resource://gre/modules/PushServiceWebSocket.jsm:775:27
+_wsOnMessageAvailable@resource://gre/modules/PushServiceWebSocket.jsm:1066:18
+onMessageAvailable@resource://gre/modules/PushServiceWebSocket.jsm:100:23
+
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-handle.html, line 16: Error: Example Error
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-handle.html, line 16: Error: Example Error
+JavaScript error: , line 0: uncaught exception: Error: assert_true: expected true got false
+JavaScript error: , line 0: uncaught exception: Error: assert_true: expected true got false
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-handle.html, line 16: Error: Example Error
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-handle.html?keep-promise, line 16: Error: Example Error
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-ignore.html, line 18: Error: Example Error
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-ignore.html?keep-promise, line 18: Error: Example Error
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases-timeouts.html, line 14: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases-timeouts.html, line 14: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 10: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 15: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 16: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 10: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 10: Error: this error is expected
+1559943426172	Marionette	INFO	Stopped listening on port 39539
+1559943427414	mozrunner::runner	INFO	Running command: "/usr/local/google/home/robertma/tools/firefox-nightly/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JoAkxcwOJgRf"
+1559943427886	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559943427886	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1559943427886	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559943427886	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559943429404	Marionette	INFO	Listening on port 43819
+1559943429423	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-handle.html, line 16: Error: Example Error
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-handle.html, line 16: Error: Example Error
+JavaScript error: , line 0: uncaught exception: Error: assert_true: expected true got false
+JavaScript error: , line 0: uncaught exception: Error: assert_true: expected true got false
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-handle.html, line 16: Error: Example Error
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-handle.html?keep-promise, line 16: Error: Example Error
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-ignore.html, line 18: Error: Example Error
+JavaScript error: https://web-platform.test:8443/resources/test/tests/functional/uncaught-exception-ignore.html?keep-promise, line 18: Error: Example Error
+console.info: services.settings: Initialize Remote Settings
+console.info: services.settings: Push notification received (version="1559865839282" phase=register)
+console.info: services.settings: Start polling for changes
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:205:13
+async*receivedBroadcastMessage@resource://services-settings/remote-settings.js:361:27
+receivedBroadcastMessage@resource://gre/modules/PushBroadcastService.jsm:208:23
+async*receivedBroadcastMessage@resource://gre/modules/PushService.jsm:741:26
+_handleBroadcastReply@resource://gre/modules/PushServiceWebSocket.jsm:775:27
+_wsOnMessageAvailable@resource://gre/modules/PushServiceWebSocket.jsm:1066:18
+onMessageAvailable@resource://gre/modules/PushServiceWebSocket.jsm:100:23
+
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases-timeouts.html, line 14: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases-timeouts.html, line 14: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 10: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 15: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 16: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 10: Error: this error is expected
+JavaScript error: https://web-platform.test:8443/resources/test/tests/unit/exceptional-cases.html, line 10: Error: this error is expected
+1559943581597	Marionette	INFO	Stopped listening on port 43819
